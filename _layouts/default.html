@@ -10,6 +10,9 @@
 
 <body>
     <main class="container">
+        {% if page.url != "/" %}
+        <p class="back-home"><a href="{{ '/' | relative_url }}">← Back to Home</a></p>
+        {% endif %}
         {{ content }}
     </main>
 </body>
