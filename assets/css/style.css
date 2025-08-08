@@ -2,13 +2,15 @@
 
 /* General page background & text */
 body {
-    background-color: #121212;
-    color: #E0E0E0;
     font-family: system-ui, sans-serif;
     background-color: #121212;
     color: #f5f5f5;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    /* Bigger for better readability */
+    line-height: 1.7;
+    /* More breathing space */
 }
 
 /* Links & hover states */
@@ -29,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #FF8C42;
+    color: #ffa559; /* lighter orange */
     margin-top: 1em;
 }
 
@@ -38,11 +40,16 @@ h6 {
 .post,
 .content {
     background-color: #1E1E1E;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #2A2A2A;
+}
+
+.container {
     width: 70%;
     max-width: 900px;
-    margin: 2rem auto;
-    padding: 1rem;
-    border: 1px solid #2A2A2A;
+    margin: 1.5rem auto;
 }
 
 /* Secondary text (dates, metadata) */
