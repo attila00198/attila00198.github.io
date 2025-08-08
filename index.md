@@ -35,5 +35,5 @@ All development updates will be posted here. Stay tuned for progress, pitfalls, 
 
 ---
 
-Made with ❤️ by Kamakosan  
+Made with ❤️ by Kamakosan  AKA attila00198
 *August 08, 2025*
