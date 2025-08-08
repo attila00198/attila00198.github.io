@@ -1,2 +1,6 @@
-title: Kamakosan’s Dev Blog
-description: Building TinyChat and learning out loud
+title: TinyChat Devlog
+description: Kamakosan's dev blog
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
